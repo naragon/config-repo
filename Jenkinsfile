@@ -1,5 +1,5 @@
 pipeline {
-  agent { docker { image 'alpine'}}
+  agent { none }
   stages {
     stage('Application build') {
       steps {
